@@ -1,12 +1,14 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "entry-level", "entry-level", "{D215740A-4544-9982-6CCA-CB512A50AEB4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-entry-level", "01-entry-level", "{889C9DE3-F7FF-4FBE-8EE6-21B04E645960}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-csharp-fundamentals", "01-csharp-fundamentals", "{3995D09A-5009-CF9C-8F6E-71D620C5F34F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-csharp-fundamentals", "01-csharp-fundamentals", "{A0E47190-6048-49F7-B57D-3092F4A9E55F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloCSharp", "entry-level\01-csharp-fundamentals\HelloCSharp\HelloCSharp.csproj", "{1BAFAF2B-472B-03A6-81B0-2B79DC520308}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloCSharp", "01-entry-level\01-csharp-fundamentals\01-HelloCSharp\HelloCSharp.csproj", "{04604999-DD42-42E8-8444-BB581AA127A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookNestHRM", "01-entry-level\01-csharp-fundamentals\02-BookNestHRM\BookNestHRM.csproj", "{837189D5-D9A4-4DF8-8ED8-CD70C53BD525}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,19 +16,24 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1BAFAF2B-472B-03A6-81B0-2B79DC520308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1BAFAF2B-472B-03A6-81B0-2B79DC520308}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1BAFAF2B-472B-03A6-81B0-2B79DC520308}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1BAFAF2B-472B-03A6-81B0-2B79DC520308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04604999-DD42-42E8-8444-BB581AA127A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04604999-DD42-42E8-8444-BB581AA127A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04604999-DD42-42E8-8444-BB581AA127A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04604999-DD42-42E8-8444-BB581AA127A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{837189D5-D9A4-4DF8-8ED8-CD70C53BD525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{837189D5-D9A4-4DF8-8ED8-CD70C53BD525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{837189D5-D9A4-4DF8-8ED8-CD70C53BD525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{837189D5-D9A4-4DF8-8ED8-CD70C53BD525}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{3995D09A-5009-CF9C-8F6E-71D620C5F34F} = {D215740A-4544-9982-6CCA-CB512A50AEB4}
-		{1BAFAF2B-472B-03A6-81B0-2B79DC520308} = {3995D09A-5009-CF9C-8F6E-71D620C5F34F}
-	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1589C5C2-4DB9-4FCE-ABB9-560DD6FD85EE}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0E47190-6048-49F7-B57D-3092F4A9E55F} = {889C9DE3-F7FF-4FBE-8EE6-21B04E645960}
+		{04604999-DD42-42E8-8444-BB581AA127A2} = {A0E47190-6048-49F7-B57D-3092F4A9E55F}
+		{837189D5-D9A4-4DF8-8ED8-CD70C53BD525} = {A0E47190-6048-49F7-B57D-3092F4A9E55F}
 	EndGlobalSection
 EndGlobal
